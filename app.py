@@ -34,7 +34,7 @@ target_names= iris.target_names
 st.set_page_config(
     page_title="Iris Flower Classifier",
     page_icon="🌸",
-    # layout="wide"
+    layout="wide"
 )
 
 # setting a navigation menu 
@@ -245,5 +245,6 @@ elif select == "About":
     
     st.markdown("---")
     st.markdown("Thanks for exploring this web page! 🤗")
+
 
 
